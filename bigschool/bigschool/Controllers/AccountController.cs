@@ -8,14 +8,14 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using bigschool.Models;
+using BigSchool.Models;
 
-namespace bigschool.Controllers
+namespace BigSchool.Controllers
 {
     [Authorize]
     public class AccountController : Controller
     {
-        private ApplicationSignInManager _signInManager; 
+        private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
         public AccountController()
@@ -25,7 +25,7 @@ namespace bigschool.Controllers
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
         {
             UserManager = userManager;
-            SignInManager = signInManager; 
+            SignInManager = signInManager;
         }
 
         public ApplicationSignInManager SignInManager

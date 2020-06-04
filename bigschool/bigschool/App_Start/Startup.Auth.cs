@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using bigschool.Models;
+using BigSchool.Models;
 
-namespace bigschool
+namespace BigSchool
 {
     public partial class Startup
     {

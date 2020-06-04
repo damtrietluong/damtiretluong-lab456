@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace bigschool
+namespace BigSchool
 {
     public class FilterConfig
     {

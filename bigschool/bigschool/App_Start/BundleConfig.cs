@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace bigschool
+namespace BigSchool
 {
     public class BundleConfig
     {

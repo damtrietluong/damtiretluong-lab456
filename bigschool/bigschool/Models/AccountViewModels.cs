@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace bigschool.Models
+namespace BigSchool.Models
 {
     public class ExternalLoginConfirmationViewModel
     {
