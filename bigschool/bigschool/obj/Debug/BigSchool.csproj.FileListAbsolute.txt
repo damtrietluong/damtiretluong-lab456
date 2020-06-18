@@ -441,3 +441,13 @@ C:\Users\Luong\Source\Repos\damtiretluong-lab4563\bigschool\BigSchool\obj\Debug\
 C:\Users\Luong\Source\Repos\damtiretluong-lab4563\bigschool\BigSchool\obj\Debug\BigSchool.dll
 C:\Users\Luong\Source\Repos\damtiretluong-lab4563\bigschool\BigSchool\obj\Debug\BigSchool.pdb
 C:\Users\Luong\Source\Repos\damtiretluong-lab4563\bigschool\BigSchool\obj\Debug\BigSchool.Migrations.AddNameColumnToApplicationUser3.resources
+C:\Users\Administrator\Source\Repos\damtiretluong-lab456\bigschool\BigSchool\obj\Debug\BigSchool.Migrations.AddNameColumnToApplicationUser2.resources
+C:\Users\Administrator\Source\Repos\damtiretluong-lab456\bigschool\BigSchool\obj\Debug\BigSchool.Migrations.AddNameColumnToApplicationUser3.resources
+C:\Users\Administrator\Source\Repos\damtiretluong-lab456\bigschool\BigSchool\obj\Debug\BigSchool.Migrations.AddAttendance.resources
+C:\Users\Administrator\Source\Repos\damtiretluong-lab456\bigschool\BigSchool\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrator\Source\Repos\damtiretluong-lab456\bigschool\BigSchool\bin\System.Web.Http.dll
+C:\Users\Administrator\Source\Repos\damtiretluong-lab456\bigschool\BigSchool\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrator\Source\Repos\damtiretluong-lab456\bigschool\BigSchool\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrator\Source\Repos\damtiretluong-lab456\bigschool\BigSchool\bin\System.Web.Http.xml
+C:\Users\Administrator\Source\Repos\damtiretluong-lab456\bigschool\BigSchool\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrator\Source\Repos\damtiretluong-lab456\bigschool\BigSchool\obj\Debug\BigSchool.Migrations.AddFollowingsTable.resources
