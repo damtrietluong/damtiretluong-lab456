@@ -14,15 +14,16 @@ namespace BigSchool.ViewModels
         [Required]
         [FutureDate] 
         public string Date { get; set; }
-        [ValidTime]
+        
         [Required]
+        [ValidTime]
         public string Time { get; set; }
         [Required]
         public byte Category { get; set; }
-        public IEnumerable<Category> Categories { set; get; }
+        public IEnumerable<Category> Categories { get; set; }
         public DateTime GetDateTime()
         {
             return DateTime.Parse(string.Format("{0} {1}", Date, Time));
-        }
+        }       
     }
 }
