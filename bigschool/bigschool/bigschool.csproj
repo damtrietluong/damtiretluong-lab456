@@ -256,6 +256,10 @@
     <Compile Include="Migrations\202006180332176_AddFollowingsTable.Designer.cs">
       <DependentUpon>202006180332176_AddFollowingsTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202006240750531_AddFollowingsTable1.cs" />
+    <Compile Include="Migrations\202006240750531_AddFollowingsTable1.Designer.cs">
+      <DependentUpon>202006240750531_AddFollowingsTable1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -267,6 +271,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
+    <Compile Include="ViewModels\CoursesViewModel.cs" />
     <Compile Include="ViewModels\CourseViewModel.cs" />
     <Compile Include="ViewModels\CustomViewModel.cs" />
     <Compile Include="ViewModels\FutureDate.cs" />
@@ -333,6 +338,7 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Courses\Create.cshtml" />
+    <Content Include="Views\Courses\Attending.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -374,6 +380,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202006180332176_AddFollowingsTable.resx">
       <DependentUpon>202006180332176_AddFollowingsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006240750531_AddFollowingsTable1.resx">
+      <DependentUpon>202006240750531_AddFollowingsTable1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

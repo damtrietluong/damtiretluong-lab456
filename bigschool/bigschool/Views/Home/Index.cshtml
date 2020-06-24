@@ -37,11 +37,18 @@
     left:70px;">
                 <span class="lecturer">
                     @course.Lecturer.Name
+                    @*@if (Model.ShowAction)*@
+                    {
+                        <button class="btn btn-default btn-sm js-toggle-follow" data-user-id="@course.LecturerId">Follow</button>
+                    }
                 </span>
                 <span class="category">
                     @course.Category.Name
                 </span>
-                <button data-course-id="@course.Id" class=" btn btn-default btn-sm js-toggle-attendance ">Going?</button>
+                @*@if (Model.ShowAction)*@
+                {
+                    <button data-course-id="@course.Id" class="btn btn-default btn-sm js-toggle-attendance">Going?</button>
+                }
             </div>
         </li>
     }
@@ -62,6 +69,16 @@
                 .fail(function () {
                     alert("Someting failed!");
                 });
+            });
+            $(".js-toggle-follow").click(function (e) {
+                var button = $(e.target);
+                $.post("/api/followings", { followeeId: button.attr("data-user-id") })
+                    .done(function () {
+                        button.text("Following");
+                    })
+                    .fail(function () {
+                        alert("Something failed");
+                    });
             });
             });
     </script>
